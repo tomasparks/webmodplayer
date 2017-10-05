@@ -4,14 +4,15 @@
     <meta name="description" content="A MOD/S3M/XM module player in Javascript using the Web Audio API.">
     <link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
     <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="/js/utils.js"></script>
-    <script type="text/javascript" src="/js/player.js"></script>
+    <!-- <script type="text/javascript" src="/js/utils.js"></script> -->
+ <!-- <script type="text/javascript" src="/js/player.js"></script> -->
     <!-- <script type="text/javascript" src="/js/pt.js"></script> -->
     <!-- <script type="text/javascript" src="/js/st3.js"></script> -->
     <!-- <script type="text/javascript" src="/js/ft2.js"></script> -->
     <script type="text/javascript" src="/js/ui.js"></script>
 
 <!-- adding uade support -->
+<script type="text/javascript" src="stdlib/mini_controls.js"></script>
 <script type="text/javascript" src="stdlib/scriptprocessor_player.min.js"></script>
 <script type="text/javascript" src="backend_uade.js"></script>
 

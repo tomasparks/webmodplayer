@@ -281,7 +281,8 @@ function updateUI(timestamp)
 
 
 $(document).ready(function() {
-  window.module=new Modplayer();
+ // window.module=new Modplayer();
+
   window.playlistPosition=0;
   window.playlistActive=false;
 
@@ -421,17 +422,20 @@ $(document).ready(function() {
 
   $("#play").click(function(){
     if (module.playing) {
-      module.stop();
+      // module.stop();
+ScriptNodePlayer.getInstance().pause();
       $("#pause").removeClass("down");
       return false;
     }
-    module.play();
+//    module.play();
+ScriptNodePlayer.getInstance().resume();
     return false;
   });
 
   $("#pause").click(function(){
       $("#pause").toggleClass("down");
-      module.pause();
+     // module.pause();
+ScriptNodePlayer.getInstance().pause();
       return false;
   });
 
