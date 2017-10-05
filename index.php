@@ -6,15 +6,21 @@
     <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="/js/utils.js"></script>
     <script type="text/javascript" src="/js/player.js"></script>
-    <script type="text/javascript" src="/js/pt.js"></script>
-    <script type="text/javascript" src="/js/st3.js"></script>
-    <script type="text/javascript" src="/js/ft2.js"></script>
+    <!-- <script type="text/javascript" src="/js/pt.js"></script> -->
+    <!-- <script type="text/javascript" src="/js/st3.js"></script> -->
+    <!-- <script type="text/javascript" src="/js/ft2.js"></script> -->
     <script type="text/javascript" src="/js/ui.js"></script>
+
+<!-- adding uade support -->
+<script type="text/javascript" src="stdlib/scriptprocessor_player.min.js"></script>
+<script type="text/javascript" src="backend_uade.js"></script>
+
     <script type="text/javascript">
       window.musicPath='';
       window.musicLibrary=[];
     </script>
   </head>
+
   <body>
     <div id="outercontainer">
       <div id="headercontainer">
@@ -37,9 +43,7 @@
           <a class="inactive" href="#" id="next_track">[&gt;|]</a>
           <span style="white-space:pre;">     </span>
           <a href="#" title="Repeat song" id="modrepeat">[rept]</a>
-          <a class="down" title="Stereo separation" href="#" id="modpaula">[)oo(]</a>
-          <a class="down" title="Visualization type" href="#" id="modvis">[trks]</a>
-          <a title="Amiga A500 lowpass filter" href="#" id="modamiga">[filt]</a>
+        <!--  <a class="down" title="Visualization type" href="#" id="modvis">[trks]</a> -->
           <span style="white-space:pre;">     </span>
           <a title="Load song or edit playlist" href="#" id="load_song">[load song]</a>
         </div>
