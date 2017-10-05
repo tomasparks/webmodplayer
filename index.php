@@ -24,8 +24,8 @@
   <body>
     <div id="outercontainer">
       <div id="headercontainer">
-        <div style="margin-left:8px;float:left">MOD/S3M/XM module player for Web Audio</div>
-        <div style="margin-right:8px;float:right">(c) 2012-2015 Firehawk/<a class="tdalink" href="http://tda.haxor.fi/" target="_blank">TDA</a></div>
+        <div style="margin-left:8px;float:left">player for Web Audio</div>
+        <div style="margin-right:8px;float:right">(c) tom sparks</div>
         <div style="clear:both;"></div>
       </div>
       <div id="innercontainer">
@@ -52,9 +52,8 @@
         <div style="clear:both"></div>
         <div id="infotext">
           The player has been tested on Chrome 14+, Firefox 24+, Safari 6+ and Edge 20+ so far. <span style="color:#faa">Disable AdBlock if you get cuts or stuttering!</span>
-          To report bugs, suggest features or request songs, contact me on <a href="https://twitter.com/janihalme" style="color:#cce;">Twitter</a> or
-          email <a href="mailto:firehawk@haxor.fi" style="color:#cce">firehawk@haxor.fi</a>.
-          Source code available on <a style="color:#cce;" target="_blank" href="https://github.com/jhalme/webaudio-mod-player">GitHub</a>.
+          To report bugs, suggest features or request songs, contact me on email <a href="mailto:tomasparks.ts@gmail.com" style="color:#cce">tomasparks.ts@gmail.com</a>.
+          Source code available on <a style="color:#cce;" target="_blank" href="https://github.com/tomasparks/webmodplayer">GitHub</a>.
         </div>
       </div>
 
